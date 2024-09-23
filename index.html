@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jamia Darululoom Karachi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f1f1f1;
+        }
+        /* Top Header Banner */
+        .header-banner {
+            background-color:#16a085;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            
+        }
+        .header-banner h1 {
+            margin: 0;
+            padding-left: 90px;
+            padding-bottom: 20px;
+        }
+.header-banner p{
+            color: rgb(217, 230, 230);
+            text-align: right;
+            padding-left: 30px;
+            padding-bottom: 20px;
+            font-size: 2em;
+            direction: rtl;
+}
+li a:hover {
+  background-color: hsl(0, 3%, 75%);
+    color: aliceblue;
+}
+
+        /* image css */
+        
+
+.image-container {
+    width: 100%; 
+    margin: 0 auto;
+    position: relative;
+    display: inline-block; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: 200px; 
+    display: block; 
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Card styling */
+  .card1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    color:white;
+    font-size: larger;
+
+}
+.card2{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 48%;
+    float: left;
+    padding: 0 10px;
+    background-color:	#73AD21;
+    color: white;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    
+
+}
+.container1 {
+  padding: 2px 16px;
+  text-align: center;
+  background-color:#73AD21;
+  
+  
+}
+.hover1-heading {
+    transition: background-color 0.5s, color 0.5s;
+}
+/* image tow css */
+
+.divimg2{
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    width: 80%;
+    height: 500px;
+}
+
+/* three card css */
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+.meancontinr{
+    display: flex;
+    align-items: center;
+    padding: 2px 16px;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 48%;
+    float: left;
+    padding: 0 10px;
+    background-color:	#c1c5bc;
+    color: #0c0101;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    gap: 4px;
+}
+
+/* footer css */
+
+footer {
+    padding: 20px 0;
+    background-color:#16a085;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #f8f9fa;
+}
+
+footer i {
+    margin-right: 8px;
+}
+
+</style>
+
+  </head>
+  <body>
+
+
+     <!-- Top Header Banner -->
+     <div class="header-banner">
+        <h1>جامعہ دارالعلوم کراچی</h1>
+        <p>قل ھل یستوی الذین یعلمون والذین لا یعلمون</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="nav-link" href="index.html">صفحہ اول</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index1.html">تعارف جامعہ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">شعبہ تعلیمات</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  دارالافتاء
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">عبادات</a></li>
+                  <li><a class="dropdown-item" href="#">معاملات</a></li>
+                  <li><a class="dropdown-item" href="#">مناکحات</a></li>
+                  <li><a class="dropdown-item" href="#">معاشرات</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> تصاویر</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+          <!-- Image Section -->
+          <div class="image-container" style="position: relative; display: inline-block;">
+            <img src="https://live.staticflickr.com/4862/32537157718_6af3c4164e.jpg" alt="Image" style="width: 100%; height: 700px;">
+            <div class="card1">
+                جامعہ دارالعلوم کراچی کی بنیاد 1951 میں مفتی شفیع عثمانی صاحب رحمہ اللہ نے قائم کی۔ یہ پاکستان کے مشہور دینی مدارس میں سے ایک ہے، جو اسلامی علوم کی تعلیم فراہم کرتا ہے اور فقہ و شریعت میں ماہر علماء پیدا کرتا ہے۔ اس ادارے نے اسلامی روایتی علم کے تحفظ اور تدریس میں اہم کردار ادا کیا ہے۔'
+            </div>
+        </div>
+        <!-- after beg image -->
+         
+        <div>
+            <h1 class="hover1-heading" style="background-color: #c9c6ac; width: 180px; height: auto; margin: 0 auto; color: antiquewhite; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 30px;">
+                مختصر نکات
+            </h1>
+            <!-- two cared -->
+            
+        </div>
+        <div style="display:flex;justify-content:center;gap: 20px;box-sizing:border-box;margin: 0 auto;padding-top: 18px;">
+
+            <div class="card2">
+                <h2 style="text-align: center;"></h2>
+                <div class="container1">
+                    <ul style="list-style-type: none; line-height:2;font-size:17px;">
+                        <li> جامعہ دارالعلوم کراچی ایک غیر سرکاری، دینی اور علمی ادارہ ہے</li>
+                        <li> جامعہ اپنے نصاب تعلیم، نظم و نسق اور تربیت کے اعتبار سے ایک امتیازی حیثیت رکھتا ہے</li>
+                        <li> جامعہ میں علوم اسلامیہ کی ادنیٰ سے اعلیٰ درجات تک معیاری تعلیم دی جاتی ہے.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card2">
+                <h2 style="text-align: center;"></h2>
+                <div class="container1">
+                    <ul style="list-style-type: none;line-height:2;font-size: 17px;">
+                        <li> تقریباً 10000 طلبہ کے طعام و قیام اور ضروریات کا انتظام جامعہ کی طرف سے مفت کیا جاتاہے.</li>
+                        <li> ان سب مصارف کا مدار صرف اللہ تعالیٰ کی توفیق سے اہل خیر حضرات کی مالی امداد پر ہے</li>
+                        <li> جامعہ کی کوئی خاص مستقل آمدنی نہیں، نہ ہی حکومت سے کوئی مالی امداد وصول کی جاتی ہے</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- image2 section -->
+         <br>
+         <br>
+         <br>
+
+        <div class="divimg2">
+            <img src=https://live.staticflickr.com/4913/32536822958_926ec5719d.jpg alt="image2" class='image2'>
+        </div>
+        <!-- last therr cards -->
+        <br>
+        <br>
+        <br>
+        <div class="meancontinr">
+            <div class="card" style="width: 18rem;">
+                <div class="icon-container">
+                    <img src="https://cdn-icons-png.flaticon.com/128/9841/9841891.png" class="card-img-top" alt="star" style="width: 40%;height: auto;">
+                </div>
+                <div class="card-body">
+                    <h1 class="card-text">درس نظامی</h1>
+                  <p class="card-text" style="text-align-last: right;">درس نظامی ملا نظام الدین محمد سہالوی سے منسوب طریقۂ تدریس و نصاب، نصاب تعلیم و نظام تدریس جو ملا نظام الدین نے مشرق کی دینی درسگاہوں کے لیے تیار کیا تھا</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <div class="icon-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8347/8347453.png" class="card-img-top" alt="star" style="width: 40%;height: auto;">
+                </div>
+                <div class="card-body">
+                    <h1 class="card-text">تعلیمی سال 1446کا آغاز</h1>
+                  <p class="card-text" style="text-align-last: right;">جامعہ کے تعلیمی سال 1446 ہجری میں نئے اور پرانے طلبہ کے داخلوں کا آغاز ہوچکا ہے </p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <div class="icon-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/200/200389.png" class="card-img-top" alt="star" style="width: 40%;height: auto;">
+                </div>
+                <div class="card-body">
+                    <h1 class="card-text">مدارس دینیہ کا مقصد</h1>
+                  <p class="card-text" style="text-align-last: right;">دینی مدارس کا مقصد اسلامی تعلیمات کے ماہرین،قرآن و سنت پر گہری نگاہ رکھنے والے علماءتیار کرنا اور ایسے رجال کار پیدا کرنا جو مسلم معاشرہ کا اسلام سے ناطہ جوڑیں</p>
+                </div>
+              </div>
+        </div>
+
+        <!-- footer section -->
+
+        <footer class="bg-primary text-white pt-4">
+            <div class="container">
+                <div class="row">
+                    <!-- About Us Section -->
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>ہم اپنی ویب سائٹ کے ذریعے تعلیم فراہم کرنے کے لیے وقف ہیں۔ ہمارے بارے میں مزید جاننے کے لیے جڑے رہیں</p>
+                    </div>
+                    <!-- Quick Links Section -->
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">Services</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                            <li><a href="#" class="text-white">About</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact Info Section -->
+                    <div class="col-md-4">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-map-marker-alt"></i> indistrl earia corangi, karachi</li>
+                            <li><i class="fas fa-phone"></i> +123-456-7890</li>
+                            <li><i class="fas fa-envelope"></i> info@jamiadarloloomkarachi.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Social Media Section -->
+                <div class="text-center mt-3">
+                    <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <!-- Copyright Section -->
+                <div class="text-center mt-4">
+                    <p>&copy; 2024 Jamia Darululoom Karachi. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
